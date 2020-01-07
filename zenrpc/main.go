@@ -3,11 +3,12 @@ package main
 import (
 	"bytes"
 	"fmt"
-	"github.com/semrush/zenrpc/parser"
 	"go/format"
 	"os"
 	"path/filepath"
 	"time"
+
+	"github.com/semrush/zenrpc/v2/parser"
 )
 
 const (
