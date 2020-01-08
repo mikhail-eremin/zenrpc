@@ -2,6 +2,7 @@ package testdata
 
 import (
 	"github.com/semrush/zenrpc/v2"
+	"github.com/semrush/zenrpc/v2/testdata/model"
 )
 
 type Group struct {
@@ -11,6 +12,8 @@ type Group struct {
 	Groups   []Group  `json:"group"`
 	ChildOpt *Group   `json:"child"`
 	Sub      SubGroup `json:"sub"`
+
+	Point model.Point `json:"point"`
 }
 
 type SubGroup struct {
